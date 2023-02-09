@@ -1,5 +1,33 @@
-img {
- height: 100px;
- width: 100px;
+body {
+  margin: 0px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', sans-serif;
+  
+}
+html {
+  background-color: bisque;
+}
 
+.logo {
+  position: absolute;
+  max-height: 150px;
+  max-width: 150px;
+}
+.box-nav {
+  position: fixed;
+  height: auto;
+  width: 100%;  
+}
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: end;
+}
+ul > li {
+  margin: 5%;
+}
+.main_picture {
+  width: 100%;
+}
+.main {
+  width: 100%;
 }
