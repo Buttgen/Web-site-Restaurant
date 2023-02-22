@@ -1,19 +1,19 @@
 body {
   margin: 0px;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', sans-serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: white;
   
 }
-html {
-  background-color: bisque;
-}
+html { background-color: #211200;}
 
 .logo {
+
   position: absolute;
   max-height: 150px;
   max-width: 150px;
 }
+
 .box-nav {
-  position: fixed;
   height: auto;
   width: 100%;  
 }
@@ -23,11 +23,59 @@ ul {
   justify-content: end;
 }
 ul > li {
-  margin: 5%;
+  margin: 3%;
+  padding: 1%;
+  border-radius: 10px;
+  border: 1px solid white;
 }
+li:hover{
+  background-color: red;
+}
+
+
 .main_picture {
   width: 100%;
 }
 .main {
   width: 100%;
 }
+
+h1 {
+  background-color: red;
+  border-radius: 20px;
+  font-style: oblique;
+  font-size: 4rem;
+  text-align: center;
+  margin: 3%;
+  padding: 3%;
+  
+}
+.wrapper{
+  display: grid;
+  width: 100%;
+  height: 80%;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(3, auto);
+  
+}
+.picture_des{ 
+  width: 100%;
+  height: 100%;
+}
+
+h2{
+   
+  font-weight: bold; 
+  color: black;
+}
+.des_center{
+  margin-top: 15%;
+  text-align: center;
+}
+
+.picture_tartars{grid-column: 1; grid-row:1;}
+.tartars_description{grid-column: 1; grid-row:2; background-color: gray;}
+.meats_description{grid-column: 2; grid-row:1; background-color: gray;}
+.picture_meats{grid-column: 2; grid-row:2;}
+.picture_fish{grid-column: 3; grid-row:1;}
+.description_fish{grid-column: 3; grid-row:2; background-color: gray;}
