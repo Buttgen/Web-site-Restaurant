@@ -1,3 +1,6 @@
+/*
+body
+*/
 body {
   margin: 0px;
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -6,6 +9,10 @@ body {
 }
 html { background-color: #211200;}
 
+
+/*
+header 
+*/
 .logo {
 
   position: absolute;
@@ -17,22 +24,28 @@ html { background-color: #211200;}
   height: auto;
   width: 100%;  
 }
-ul {
+.menu {
   list-style: none;
   display: flex;
   justify-content: end;
 }
-ul > li {
+.menu > li {
   margin: 3%;
   padding: 1%;
   border-radius: 10px;
   border: 1px solid white;
 }
-li:hover{
+nav > a {
+  text-decoration: none;
+}
+.menu > li:hover{
   background-color: red;
 }
 
 
+/*
+Main, pictures and desciption + css Grid
+*/
 .main_picture {
   width: 100%;
 }
@@ -50,7 +63,10 @@ h1 {
   padding: 3%;
   
 }
-.wrapper{
+/*
+start Css grid
+*/
+.wrapper {
   display: grid;
   width: 100%;
   height: 80%;
@@ -58,7 +74,7 @@ h1 {
   grid-template-rows: repeat(3, auto);
   
 }
-.picture_des{ 
+.picture_des { 
   width: 100%;
   height: 100%;
 }
@@ -68,7 +84,7 @@ h2{
   font-weight: bold; 
   color: black;
 }
-.des_center{
+.des_center {
   margin-top: 15%;
   text-align: center;
 }
@@ -79,3 +95,46 @@ h2{
 .picture_meats{grid-column: 2; grid-row:2;}
 .picture_fish{grid-column: 3; grid-row:1;}
 .description_fish{grid-column: 3; grid-row:2; background-color: gray;}
+/*
+End Css grid
+*/
+
+/*
+Reservation and order
+*/
+.order {
+  min-width: 100%;
+  text-align: center;
+  background-color: red;
+}
+
+ h3 {font-size: 2rem;}
+ h4 {font-size: large;}
+ 
+ .list_order {
+  display: block;
+  min-height: auto;
+  min-width: auto;
+  list-style: none;
+
+}
+.l_order {
+  display: inline-block;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid white;
+  width: 35%;
+  margin: 1%;
+  padding: 1%;
+}
+.l_order > a {
+  font-size: large;
+  color: #211200;
+  text-decoration: none;
+}
+.l_order:hover {
+  background-color: gray;
+}
+
+
+
