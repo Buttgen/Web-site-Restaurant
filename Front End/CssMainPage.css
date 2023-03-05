@@ -13,8 +13,11 @@ html { background-color: #211200;}
 /*
 header 
 */
+header {
+  min-height: 150px;
+  min-width: auto;
+}
 .logo {
-
   position: absolute;
   max-height: 150px;
   max-width: 150px;
@@ -22,13 +25,14 @@ header
 
 .box-nav {
   height: auto;
-  width: 100%;  
+  width: 100%;
+  
 }
 .menu {
   list-style: none;
   display: flex;
   justify-content: end;
-}
+ }
 .menu > li {
   margin: 3%;
   padding: 1%;
@@ -41,7 +45,9 @@ nav > a {
 .menu > li:hover{
   background-color: red;
 }
-
+/*
+Finish header
+*/
 
 /*
 Main, pictures and desciption + css Grid
@@ -52,7 +58,13 @@ Main, pictures and desciption + css Grid
 .main {
   width: 100%;
 }
-
+.up > a {
+  text-decoration: none;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+  color: lightgreen;
+}
 h1 {
   background-color: red;
   border-radius: 20px;
@@ -121,9 +133,9 @@ Reservation and order
 .l_order {
   display: inline-block;
   background-color: white;
-  border-radius: 10px;
+  border-radius: 30px;
   border: 1px solid white;
-  width: 35%;
+  width: 50%;
   margin: 1%;
   padding: 1%;
 }
@@ -135,6 +147,30 @@ Reservation and order
 .l_order:hover {
   background-color: gray;
 }
+/*
+finish reservation and the order
+*/
 
 
+/*
+start of footer
+*/
+.box {
+  text-align: center;
+  height: auto;
+  width: 80%;
+  padding: 1%;
+  margin: auto;
+  
+}
+
+
+.prev-s {
+  text-decoration: underline;
+  font-size: xx-small;
+  text-align: center;
+}
+/*
+Finish the footer
+*/
 
