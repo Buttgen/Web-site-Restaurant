@@ -1,0 +1,32 @@
+header {
+  min-height: 150px;
+  min-width: auto;
+}
+.logo {
+  position: absolute;
+  max-height: 150px;
+  max-width: 150px;
+}
+
+.box-nav {
+  height: auto;
+  width: 100%;
+  
+}
+.menu {
+  list-style: none;
+  display: flex;
+  justify-content: end;
+ }
+.menu > li {
+  margin: 3%;
+  padding: 1%;
+  border-radius: 10px;
+  border: 1px solid white;
+}
+nav > a {
+  text-decoration: none;
+}
+.menu > li:hover{
+  background-color: red;
+}
