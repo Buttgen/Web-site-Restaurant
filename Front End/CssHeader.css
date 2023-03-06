@@ -1,14 +1,33 @@
+/*
+body
+*/
+body {
+  margin: 0px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: white;
+  
+}
+html { background-color: #211200;}
+
+
+/*
+header 
+*/
 header {
-  min-height: 150px;
-  min-width: auto;
+  position: fixed;
+  background-color: #211200 ;
+  min-height: 1OOpx;
+  width: 100%;
 }
 .logo {
-  position: absolute;
-  max-height: 150px;
+  position: fixed;
+  left: 10px;
+  max-height: 100px;
   max-width: 150px;
 }
 
 .box-nav {
+  position: fixed;
   height: auto;
   width: 100%;
   
@@ -19,14 +38,19 @@ header {
   justify-content: end;
  }
 .menu > li {
-  margin: 3%;
+  margin: 2%;
   padding: 1%;
   border-radius: 10px;
   border: 1px solid white;
 }
-nav > a {
+.s-menu > a {
   text-decoration: none;
+  color: white;
+
 }
 .menu > li:hover{
   background-color: red;
 }
+/*
+Finish header
+*/
