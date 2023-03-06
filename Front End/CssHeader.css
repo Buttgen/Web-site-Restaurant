@@ -3,6 +3,7 @@ body
 */
 body {
   margin: 0px;
+  height: 1500px;
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: white;
   
@@ -16,7 +17,7 @@ header
 header {
   position: fixed;
   background-color: #211200 ;
-  min-height: 1OOpx;
+  min-height: 100px;
   width: 100%;
 }
 .logo {
@@ -27,7 +28,6 @@ header {
 }
 
 .box-nav {
-  position: fixed;
   height: auto;
   width: 100%;
   
@@ -40,17 +40,13 @@ header {
 .menu > li {
   margin: 2%;
   padding: 1%;
-  border-radius: 10px;
-  border: 1px solid white;
 }
 .s-menu > a {
   text-decoration: none;
   color: white;
 
 }
-.menu > li:hover{
-  background-color: red;
-}
+.menu > li:hover{ text-decoration: underline}
 /*
 Finish header
 */
