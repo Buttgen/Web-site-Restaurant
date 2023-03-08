@@ -43,10 +43,13 @@ header {
 }
 .s-menu > a {
   text-decoration: none;
-  color: white;
+  color: #ffffff;
 
 }
-.menu > li:hover{ text-decoration: underline}
+.menu > li:hover { 
+  border-radius: 10px;
+  background-color: #ff0000;
+}
 /*
 Finish header
 */

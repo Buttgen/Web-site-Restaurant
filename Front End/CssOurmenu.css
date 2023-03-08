@@ -1,6 +1,7 @@
 header {
   z-index: 1;
 }
+
 .size-picture-steak {
   position: relative;
   max-height: 100vh;
@@ -13,4 +14,36 @@ header {
   left: 50%;
   transform: translate(-50%, -50%);
   
+}
+html {
+  min-height: 100%;
+  min-width: 100%;
+}
+.box-menu {
+  margin: 5%;
+  padding: 3%;
+  border: 2px solid #fdfdfd;
+  border-radius: 20px;
+  background-color: #dcc6ab;
+}
+h2 {
+  font-size: 2em;
+  text-align: center;
+  color: #000000;
+}
+dl {
+  text-align: justify;
+  font-size: large;
+}
+dt {
+  color: #252222fb;
+  font-size: larger;
+}
+dd {
+  padding: 1%;
+  border-bottom: 1px solid white;
+  color: #ffffff
+}
+.inf-color {
+  color: #ff0000;
 }
