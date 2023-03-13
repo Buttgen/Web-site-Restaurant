@@ -9,50 +9,6 @@ body {
 }
 html { background-color: #211200;}
 
-
-/*
-header 
-*/
-header {
-  position: fixed;
-  background-color: #211200 ;
-  min-height: 100px;
-  width: 100%;
-}
-.logo {
-  position: fixed;
-  left: 10px;
-  max-height: 100px;
-  max-width: 150px;
-}
-
-.box-nav {
-  height: auto;
-  width: 100%;
-  
-}
-.menu {
-  list-style: none;
-  display: flex;
-  justify-content: end;
- }
-.menu > li {
-  margin: 2%;
-  padding: 1%;
-}
-.s-menu > a {
-  text-decoration: none;
-  color: #ffffff;
-
-}
-.menu > li:hover{ 
-  border-radius: 10px;
-  background-color: #ff0000;
-}
-/*
-Finish header
-*/
-
 /*
 Main, pictures and desciption + css Grid
 */
@@ -147,28 +103,5 @@ Reservation and order
 }
 /*
 finish reservation and the order
-*/
-
-
-/*
-start of footer
-*/
-.box {
-  text-align: center;
-  height: auto;
-  width: 80%;
-  padding: 1%;
-  margin: auto;
-  
-}
-
-
-.prev-s {
-  text-decoration: underline;
-  font-size: xx-small;
-  text-align: center;
-}
-/*
-Finish the footer
 */
 
