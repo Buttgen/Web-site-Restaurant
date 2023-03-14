@@ -1,0 +1,35 @@
+main {
+  margin-left: 20%;
+  margin-right: 20%;
+  background-color: lightgray;
+}
+
+.list_order {
+  display: block;
+  min-height: auto;
+  min-width: auto;
+  list-style: none;
+
+}
+.l_order {
+  display: inline-block;
+  background-color: #ffffff;
+  border-radius: 30px;
+  border: 1px solid #ffffff;
+  width: 50%;
+  margin: 1%;
+  padding: 1%;
+}
+.l_order > a {
+  font-size: large;
+  color: #211200;
+  text-decoration: none;
+}
+.l_order:hover {
+  background-color: #808080;
+}
+.title {
+  display: inline-block;
+  width: 100%;
+  text-transform: uppercase;
+}
