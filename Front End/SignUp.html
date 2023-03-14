@@ -7,7 +7,7 @@
   <meta name="spécialités de grillmades" content="Bienvenue chez uncle sammy, le spécialités de la
   grillades depuis 1974; Venais dégusté notre gamme de viandes griller par nos mettre barbecue.">
   <title>Uncle Sammy</title>
-  <link  rel="stylesheet" href="CssFormContact.css">
+  <link  rel="stylesheet" href="CssSignUp.css">
   <link rel="stylesheet" href="CssHeader.css">
   <link rel="stylesheet" href="CssFooter.css">
 </head>
@@ -25,31 +25,72 @@
             <li class="s-menu"><a href="ourmenu.html">Notre carte</a></li>
             <li class="s-menu"><a href="#R_order">A emporter ou Livraison</a></li>
             <li class="s-menu"><a href="#">Réserver</a></li>
-            <li class="s-menu"><a href="Formcontact.html">Mon compte</a></li>
+            <li class="s-menu"><a href="Login.html">Mon compte</a></li>
             <li class="s-menu"><a href="#cont">Contacts</a></li>
           </ul>
         </nav>
       </div>
   </header>
   <main>
-    <div class="title">
-    <h1>mon compte</h1>
-    </div>
+    <h1>Login</h1>
     <form action="" method="post">
-      <h2>conexion</h2>
       <fieldset>
-        <legend>Adress mail</legend>
-        <input type="email" name="mail" id="mail" required>
+        <legend>Nom</legend>
+        <input type="text" name="firstname" id="firstname">
+      </fieldset>
+      <fieldset>
+        <legend>Prénom</legend>
+        <input type="text" name="name" id="name">
+      </fieldset>
+      <fieldset>
+        <legend>Adresse mail</legend>
+        <input type="email" name="mail" id="mail">
+      </fieldset>
+      <fieldset>
+        <legend>Téléphone</legend>
+        <input type="number" name="phoneNumber" id="phoneNumber">
+      </fieldset>
+      <fieldset>
+        <legend>Allergène</legend>
+          <input type="checkbox" name="gluten" id="gluten">
+          <label for="gluten">gluten</label>
+          
+          <input type="checkbox" name="shellfish" id="shellfish">
+          <label for="shellfish">crustacés</label>
+          
+          <input type="checkbox" name="eggs" id="eggs">
+          <label for="eggs">oeufs</label>
+          
+          <input type="checkbox" name="fish" id="fish">
+          <label for="fish">poisson</label>
+          
+          <input type="checkbox" name="peanut" id="peanut">
+          <label for="peanut">arachide</label>
+          
+          <input type="checkbox" name="soy" id="soy">
+          <label for="soy">soja</label>
+          
+          <input type="checkbox" name="nut" id="nut">
+          <label for="nut">fruit à coque</label>
+          
+          <input type="checkbox" name="celery" id="celery">
+          <label for="celery">céleri</label>
+          
+          <input type="checkbox" name="seed" id="seed">
+          <label for="seed">graine</label>
+          
+          <input type="checkbox" name="milk" id="milk">
+          <label for="milk">lactose</label> 
       </fieldset>
       <fieldset>
         <legend>Mot de passe</legend>
-        <input type="password" name="password" id="password" required>
+        <input type="password" name="password" id="password">
       </fieldset>
-      <input type="submit" value="S'identifier">
+      <fieldset>
+        <legend>Confirmé mot de passe</legend>
+        <input type="password" name="confPassworld" id="confPassworld">
+      </fieldset>
     </form>
-    <div>
-      <a href="#">S'enregistrer</a>
-    </div>
   </main>
   <footer>
     <div class="box">
